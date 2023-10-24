@@ -1,0 +1,248 @@
+@font-face {
+    src: url(fonts/Livvic-Regular.ttf);
+    font-family: 'livic-400';
+}
+
+@font-face {
+    src: url(fonts/Livvic-Medium.ttf);
+    font-family: 'livic-500';
+}
+
+@font-face {
+    src: url(fonts/Livvic-Bold.ttf);
+    font-family: 'livic-700';
+}
+
+:root {
+    --white: #ffffff;
+    --black: #1a1a1a;
+    --green: #344C31;
+    --yellow: #F7C35F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/* General */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.site-title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn {
+    background: var(--yellow);
+    color: var(--black);
+    padding: 25px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'livic-500';
+}
+
+/* Header */
+.header {
+    background: var(--green);
+    padding: 0 25px;
+}
+
+.header .container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 39px 0;
+}
+
+.header .container .logo {
+    display: flex;
+    text-align: start;
+}
+
+.header .container .menu {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header .container .menu li {
+    font-size: 18px;
+    font-family: 'livic-400', sans-serif;
+    font-weight: 400;
+    color: var(--white);
+    opacity: 70%;
+    cursor: pointer;
+    padding-bottom: 2px;
+    transition: 0.2s;
+}
+
+.header .container .menu li:hover {
+    opacity: 1;
+    border-bottom: 1px solid var(--yellow);
+}
+
+.hero {
+    background: url(pic/bg.png) no-repeat center / cover;
+}
+
+.hero .container .first {
+    padding-bottom: 10px;
+}
+
+.hero .container .first .subtitle {
+    content: '';
+    position: relative;
+    padding-top: 180px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'livic-700', sans-serif;
+    color: var(--white);
+}
+
+.hero .container .first img {
+    position: absolute;
+    top: 43%;
+}
+
+.hero .container .title {
+    display: flex;
+}
+
+.hero .container .title .site-title {
+    content: '';
+    position: relative;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'livic-700', sans-serif;
+    color: var(--yellow)
+}
+
+.hero .container .title img {
+    position: absolute;
+    top: 308px;
+    left: 601px;
+}
+
+.hero .container h2 {
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'livic-700', sans-serif;
+    color: var(--white);
+}
+
+.hero .container p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'livic-400', sans-serif;
+    max-width: 700px;
+    padding: 30px 0 30px;
+    color: var(--white);
+}
+
+.hero .container .btn {
+    margin-bottom: 200px;
+}
+
+/* introduction */
+.introduction {
+    background: var(--green);
+}
+
+.introduction .container .left img {
+    /* position: relative; */
+    max-width: 450px;
+}
+
+.introduction .container .left .completed {
+    /* position: absolute; */
+    display: flex;
+    text-align: start;
+    background: #6D8C54;
+    max-width: 428px;
+    border-radius: 10px;
+    padding: 32px 35px;
+    gap: 32px;
+}
+
+
+.introduction .container .left .completed img {
+    border-right: 1px solid #ffffff;
+    padding-right: 20px;
+}
+
+.introduction .container .left .completed .intro h3 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'livic-400', sans-serif;
+    color: var(--white);
+}
+
+.introduction .container .left .completed .intro p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'livic-500', sans-serif;
+    color: var(--white);
+}
+
+/* Quality */
+.quality {
+    background: var(--green);
+}
+
+.quality .container {
+    text-align: center;
+    color: var(--white);
+}
+
+.quality .container .subtitle {
+    padding: 78px 0 20px;
+}
+
+.quality .container .wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quality .container .card {
+    cursor: pointer;
+    padding: 33px 57px;
+    background: #547d585b;
+    margin: 100px 0 160px;
+    border-radius: 10px;
+}
+
+.quality .container .card:hover {
+    background: var(--yellow);
+    transition: 0.2s;
+}
+
+.quality .container .card img {
+    padding-bottom: 20px;
+}

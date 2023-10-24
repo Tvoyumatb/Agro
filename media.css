@@ -1,0 +1,6 @@
+/* 1100 */
+@media(max-width: 1100px){
+    .header .container .menu{
+        display: none;
+    }
+}
