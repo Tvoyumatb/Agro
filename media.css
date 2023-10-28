@@ -1,6 +1,155 @@
 /* 1100 */
-@media(max-width: 1100px){
-    .header .container .menu{
+@media(max-width: 1100px) {
+    .header .container {
+        padding: 20px 0;
+    }
+
+    .header .container .menu {
         display: none;
+
+    }
+
+    .header .container .burger {
+        display: block;
+    }
+
+    .hero {
+        padding: 100px 0;
+    }
+
+    .hero .container .first .subtitle {
+        font-size: 22px;
+    }
+
+    .hero .container .title .site-title {
+        font-size: 50px;
+    }
+
+    .hero .container h2 {
+        font-size: 45px;
+    }
+
+    .hero .container p {
+        font-size: 18px;
+        padding: 20px 0;
+    }
+
+    .hero .container .btn {
+        padding: 20px 40px;
+    }
+
+    .hero .container .title .site-title::after {
+        width: 59px;
+        height: 45px;
+    }
+
+    .hero .container .first .subtitle::after {
+        width: 190px;
+    }
+
+    .introduction::after {
+        width: 340px;
+        height: 300px;
+    }
+
+    .introduction .container .left img {
+        width: 350px;
+    }
+
+
+    .introduction .container .left {
+        position: relative;
+        z-index: 2;
+        height: 400px;
+    }
+
+    .introduction .container .left .completed {
+        display: flex;
+        height: 95px;
+        width: 290px;
+        gap: 10px;
+        background: #6D8C54;
+        border-radius: 10px;
+        padding: 18px 15px;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .introduction .container .left .completed img {
+        width: 100px;
+    }
+
+    .introduction .container .left .completed .intro h3 {
+        font-size: 27px;
+    }
+
+    .introduction .container .left .completed .intro p {
+        font-size: 14px;
+    }
+}
+
+/* 890 */
+@media(max-width: 890px) {
+    .introduction .container .left {
+        display: none;
+    }
+
+    .introduction .container .right {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+
+}
+
+/* 770px */
+@media(max-width: 770px) {}
+
+/* 570 */
+@media(max-width: 570px) {
+    .hero .container .first .subtitle {
+        font-size: 18px;
+    }
+
+    .hero .container .title .site-title {
+        font-size: 40px;
+    }
+
+    .hero .container h2 {
+        font-size: 35px;
+    }
+
+    .hero .container p {
+        max-width: 400px;
+        font-size: 16px;
+        padding: 20px 0;
+    }
+
+    .hero .container .btn {
+        padding: 12px 25px;
+    }
+}
+
+@media(max-width: 380px) {
+    .hero .container .title .site-title::after {
+        display: none;
+    }
+
+    .header .container .burger {
+        font-size: 25px;
+    }
+
+
+    .header .container .logo img {
+        width: 150px;
+    }
+
+    .hero .container .first .subtitle::after {
+        width: 160px;
+    }
+
+    .hero .container .btn {
+        display: block;
+        margin: 0 auto;
     }
 }
