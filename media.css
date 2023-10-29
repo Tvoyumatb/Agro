@@ -86,6 +86,15 @@
     .introduction .container .left .completed .intro p {
         font-size: 14px;
     }
+
+    .quality .container .wraper {
+        justify-content: space-evenly;
+    }
+
+    .quality .container .card {
+        padding: 22px 61px;
+        margin: 60px 0 20px;
+    }
 }
 
 /* 890 */
@@ -128,8 +137,34 @@
     .hero .container .btn {
         padding: 12px 25px;
     }
+
+    .introduction {
+        padding: 50px 0;
+    }
+
+    .quality .container .card {
+        padding: 5px 25px;
+        margin: 20px 0 50px;
+    }
+
+    .quality .container .subtitle {
+        padding: 50px 0 20px;
+    }
+
+    .quality .container .site-title {
+        font-size: 40px;
+    }
 }
 
+@media(max-width: 450px) {
+    .introduction .container .right h1 {
+        padding: 20px 0 25px;
+        font-size: 40px;
+    }
+}
+
+
+/* 380 */
 @media(max-width: 380px) {
     .hero .container .title .site-title::after {
         display: none;
@@ -151,5 +186,13 @@
     .hero .container .btn {
         display: block;
         margin: 0 auto;
+    }
+
+    .introduction {
+        padding: 45px 0;
+    }
+
+    .introduction::after {
+        display: none;
     }
 }

@@ -287,6 +287,7 @@ button {
     max-width: 520px;
     color: var(--white);
     padding: 20px 0 50px;
+    font-size: 50px;
     font-weight: 700;
     font-family: 'livic-700', sans-serif;
 }
@@ -337,11 +338,16 @@ button {
 .quality .container .wraper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 50px;
 }
 
 .quality .container .card {
     cursor: pointer;
+    /* width: 190px; */
     padding: 33px 57px;
     background: #547d585b;
     margin: 100px 0 160px;
@@ -355,6 +361,12 @@ button {
 
 .quality .container .card img {
     padding-bottom: 20px;
+}
+
+.quality .container .card p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'livic-500',sans-serif;
 }
 
 /* Video */
