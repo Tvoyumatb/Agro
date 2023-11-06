@@ -634,7 +634,7 @@ button {
 .news .container .wraper .card .img-block p {
 	font-size: 15px;
 	font-weight: 400;
-	font-family: 'livic-400',sans-serif;
+	font-family: 'livic-400', sans-serif;
 	background: var(--yellow);
 	color: var(--black);
 	padding: 5px 5px 5px 5px;
@@ -931,6 +931,7 @@ button {
 	font-family: 'livic-400', sans-serif;
 	background: none;
 	opacity: 50%;
+	color: var(--white);
 }
 
 .footer .right .newsletter form .btn {
@@ -946,6 +947,8 @@ button {
 .foot {
 	background: var(--green);
 	border-top: 2px solid var(--yellow);
+	font-family: 'dance-400', sans-serif;
+	padding: 30px 0 20px;
 }
 
 .foot .container {
@@ -954,6 +957,5 @@ button {
 	align-items: center;
 	color: var(--white);
 	opacity: 50%;
-	padding: 30px 0 20px;
 	cursor: pointer;
 }
